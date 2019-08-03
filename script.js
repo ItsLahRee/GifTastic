@@ -10,7 +10,7 @@ var topics="sad"; "happy"; "excited"; "bored"; "amused";
 
 //Place them on the page (document.write?)
 
-// AJAX Example queryURL for Giphy API
+// AJAX Example queryURL for Giphy API, goes in html file?
 var queryURL = "https://api.giphy.com/v1/gifs/trending?" + search + "api-key=SoLLp4B9Mr4BOQSDiXFLJuzDaNWbwHR6";
 
 $.ajax({
@@ -20,3 +20,9 @@ $.ajax({
   console.log(response);
 });
 
+<!--Added OnClickEvent -->
+<button onclick="submitButtonClicked()" type="topics" id="add-topics"
+    class="btn btn-success">Submit</button>
+<br>
+
+<div id="topics"> </div>
