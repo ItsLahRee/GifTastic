@@ -1,5 +1,5 @@
 //Create an Array of Strings, var TOPICS (humanEmotions)
-var topics="sad"; "happy"; "excited"; "bored"; "amused"; 
+var topics="sad"; "happy"; "excited"; "bored"; "amused"; "entartained"; "omg"; "no";
 //push method to add words
 
 //App should create buttons out of Topics in the Array
@@ -20,7 +20,7 @@ $.ajax({
   console.log(response);
 });
 
-<!--Added OnClickEvent -->
+//Added OnClickEvent
 <button onclick="submitButtonClicked()" type="topics" id="add-topics"
     class="btn btn-success">Submit</button>
 <br>
