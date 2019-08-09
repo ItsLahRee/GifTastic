@@ -3,7 +3,7 @@ Web based app, populating Gify images.
 
 # Instillation
 
-GitHub Pages:  
+GitHub Pages:  https://itslahree.github.io/GifTastic/
 
 ## Usage
 
