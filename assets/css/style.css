@@ -1,0 +1,65 @@
+
+
+body{
+background: url("#") no-repeat center center fixed;
+background-size: cover;
+}
+
+h1{
+font-family: "";
+font-size: 90px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.row{
+margin-bottom: 40px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.btn{
+font-family: "minnieregular";
+font-size: 16px;
+background-color: #1c5677;
+color: white;
+padding: 10px;
+}
+
+.btn:hover{
+color: #efad07;
+}
+
+.btn:focus{
+outline: 2px solid #efad07 !important;
+background-color: #1680bc;
+color: #efad07;
+}
+
+
+.comic-sans-font{
+font-family: "Comic Sans MS";
+font-size: 18px;
+font-weight: 800;
+color: black;
+}
+
+.gif-image{
+margin-top: 1vh;
+margin-bottom: 1vh;
+}
+
+.individual-gif-container{
+float: left;
+margin: 2vh 3vw 2vh 3vw;
+}
+
+#submit{
+margin-top: 50px;
+}
+
+
+#gif-container{
+font-size: 22px;
+}
+
