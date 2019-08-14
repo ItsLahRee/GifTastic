@@ -15,8 +15,9 @@ If you have something interesting to contribute, send me a pull request!
 
 ## Liscence
 
-@ItsLahRee 2019
+ItsLahRee | 2019
 
+=====================================================================================
 # GifTastic
 
 ### Overview
