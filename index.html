@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 
   <title>GifTastic</title>
   
@@ -14,37 +15,34 @@
   </head>
 
   <body>
-    <div class="container-fluid" id="wrap">
-
-	    <!--Title -->
-	    <div class="row">
-	    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="header">
-	    		<h3 id="title">Giftastic!</h3>
-	    	</div>
-	    </div>
+    <div id="main" class="container-fluid">
+	   		 <!--Title -->
+	    				<div id="header">
+								<h1 id="title">Giph Tastic</h1>
+								<h6>Version: 1990's TV</h6>
+	    				</div>
 	    
-		<!-- Button Area-->
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="buttonArea"></div>
+					<!-- Button Area-->
+						<div id="buttonArea" class="btn-area"></div>
+
+								<!-- Input Area -->	
+												<div id="input-area">
+														<form class="input-field">	
+															<fieldset>
+																<label for="topic-input"></label>
+																<input type="text" size="medium" placeholder="Add a new topic!" id="topic-input">
+																<button type="submit" class="btn submit btn btn-secondary" data="submitBtn">Submit</button>
+															</fieldset>
+														</form>
+													</div>
+
+									<!-- Gif Area -->
+													<div id="gifArea" class="container-fluid"></div>			
 		</div>
-
-		<!-- Gif Area -->
-		<div class="row">
-			<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" id="gifArea"></div>
-			
-		<!-- Input Area -->		
-			<div class="col-xs-3 col-sm-3 col-md-3col-lg-3">
-				<form>
-				  <fieldset>
-				  	<label for="topic-input">Add a topic</label><br>
-				    <input type="text" placeholder="Type something…" id="topic-input">
-				    <button type="submit" class="btn submit" data="submitBtn">Submit</button>
-				  </fieldset>
-				</form>
-			</div>
-		</div>	
-
-  </div>
+	<footer>
+		<p>Laurie Strecker &copy; 2019</p>
+	</footer>
+	
     <!--Script-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

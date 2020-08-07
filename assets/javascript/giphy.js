@@ -10,13 +10,13 @@ var buttonGenerator = function (){
 	 $("#buttonArea").empty();
 	// loops through the array and creates buttons
 	for(i = 0; i < topics.length; i++) {
-		button = $("<button type=" + "button" + ">" + topics[i] + "</button>").addClass("btn btn-warning").attr("data",topics[i]);
+		button = $("<button type=" + "button" + ">" + topics[i] + "</button>").addClass("btn btn-primary").attr("data",topics[i]);
 		$("#buttonArea").append(button);
 	};
 }
 
 
-// The user clicks on a generated orange button, which generates 10 static, non-animated gif images from the GIPHY API and places them on the page. 
+// The user clicks on a generated button, which generates 10 static, non-animated gif images from the GIPHY API and places them on the page. 
 $("#buttonArea").on("click", ".btn", function(){
   		var thing = $(this).attr("data");
   		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + thing + "&api_key=dc6zaTOxFJmzC&limit=10";
@@ -81,7 +81,8 @@ $("#gifArea").on("click", ".gif", function(event){
 })
    
 
-// The form takes the value from the input box and adds it into the topics  array. The buttonGenerator function is called that takes each topic in the array remakes the buttons on the page.
+// The form takes the value from the input box and adds it into the topics  array. 
+//The buttonGenerator function is called that takes each topic in the array remakes the buttons on the page.
 
 
 $(".submit").on("click", function(event){
