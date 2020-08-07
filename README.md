@@ -5,9 +5,9 @@ GifTastic is a web application that let's you populate Giph's onto the page. The
 
 My Working Version:
 
-![GifTastic]()
+![GifTastic](https://drive.google.com/file/d/1U7fnt1mEpjprD2E9mu9P01tBrEgPgXiE/view?usp=sharing)
 
-[See it live!]()
+[See it live!](https://lauriestrecker.github.io/GifTastic/)
 
 ## Tools Used
 
